@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="52.797" tests="6" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Driver1\apache-maven-3.6.3-bin (1)\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="maven.conf" value="C:\Driver1\apache-maven-3.6.3-bin (1)\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Driver1\apache-maven-3.6.3-bin (1)\apache-maven-3.6.3\bin\.."/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\dheer"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14.0.1+7"/>
+    <property name="user.name" value="dheer"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\dheer\AppData\Local\Temp\"/>
+    <property name="java.version" value="14.0.1"/>
+    <property name="user.dir" value="C:\Eclipse\eclipse\workplace\HubSpotAutomationPractice"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Eclipse\eclipse\workplace\HubSpotAutomationPractice"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Driver1\apache-maven-3.6.3-bin (1)\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-14.0.1\bin;C:\Program Files\Java\jre1.8.0_251;C:\Users\dheer\scoop\shims;C:\Users\dheer\AppData\Local\Microsoft\WindowsApps;C:\Users\dheer\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.1+7"/>
+    <property name="classworlds.conf" value="C:\Driver1\apache-maven-3.6.3-bin (1)\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="C:\Driver1\apache-maven-3.6.3-bin (1)\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="loginTest" classname="com.qa.hubspot.test.LoginPageTest" time="7.048"/>
+  <testcase name="verifyLoginPageTitleTest" classname="com.qa.hubspot.test.LoginPageTest" time="2.646">
+    <failure message="Title not matched... expected [HubSpot Login] but found [Reports dashboard]" type="java.lang.AssertionError">java.lang.AssertionError: Title not matched... expected [HubSpot Login] but found [Reports dashboard]
+	at com.qa.hubspot.test.LoginPageTest.verifyLoginPageTitleTest(LoginPageTest.java:53)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyLoginPageTitleTest start
+I am in onTestStart method verifyLoginPageTitleTest start
+login page title isReports dashboard
+I am in onTestFailure method verifyLoginPageTitleTest failed
+Screenshot captured for test case:verifyLoginPageTitleTest
+I am in onTestFailure method verifyLoginPageTitleTest failed
+Screenshot captured for test case:verifyLoginPageTitleTest
+]]></system-out>
+  </testcase>
+  <testcase name="VerifyHomePageTitleTest" classname="com.qa.hubspot.test.HomePageTest" time="0.067"/>
+  <testcase name="verifySignUpLinkTest" classname="com.qa.hubspot.test.LoginPageTest" time="1.139">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Sign up&quot;}&#10;  (Session info: chrome=83.0.4103.106)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;RUPALI-DELL&apos;, ip: &apos;192.168.1.68&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\dheer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: c25b683772fe88794e11cd83ca433958&#10;*** Element info: {Using=link text, value=Sign up}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Sign up"}
+  (Session info: chrome=83.0.4103.106)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUPALI-DELL', ip: '192.168.1.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\dheer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c25b683772fe88794e11cd83ca433958
+*** Element info: {Using=link text, value=Sign up}
+	at com.qa.hubspot.test.LoginPageTest.verifySignUpLinkTest(LoginPageTest.java:66)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifySignUpLinkTest start
+I am in onTestStart method verifySignUpLinkTest start
+I am in onTestFailure method verifySignUpLinkTest failed
+Screenshot captured for test case:verifySignUpLinkTest
+I am in onTestFailure method verifySignUpLinkTest failed
+Screenshot captured for test case:verifySignUpLinkTest
+]]></system-out>
+  </testcase>
+  <testcase name="VerifyHomePageHeader" classname="com.qa.hubspot.test.HomePageTest" time="0.27"/>
+  <testcase name="VerifyLoggedInUserTest" classname="com.qa.hubspot.test.HomePageTest" time="0.046"/>
+</testsuite>
