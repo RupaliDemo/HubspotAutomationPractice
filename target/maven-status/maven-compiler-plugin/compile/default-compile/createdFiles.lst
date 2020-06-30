@@ -6,6 +6,7 @@ com\qa\hubspot\listners\TestAllureListener.class
 com\qa\hubspot\utils\JavaScriptUtil.class
 com\qa\hubspot\utils\Constants.class
 com\qa\hubspot\listners\PdfListener.class
+com\qa\hubspot\listners\ScreenshotListener.class
 com\qa\hubspot\page\ContactsPage.class
 com\qa\hubspot\page\LoginPage.class
 com\qa\hubspot\utils\TimeUtils.class

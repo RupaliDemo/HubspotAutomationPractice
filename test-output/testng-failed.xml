@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Hub spot Regession Test Suite]">
-  <listeners>
-    <listener class-name="com.qa.hubspot.listners.ScreenshotListener"/>
-  </listeners>
-  <test thread-count="5" verbose="3" name="Functional Regession Test Suite - chrome(failed)">
-    <parameter name="browser" value="chrome"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.hubspot.test.ContactPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="teardown"/>
-          <include name="createNewContactTest" invocation-numbers="0 1 2 3 4"/>
-        </methods>
-      </class> <!-- com.qa.hubspot.test.ContactPageTest -->
       <class name="com.qa.hubspot.test.LoginPageTest">
         <methods>
           <include name="verifyLoginPageTitleTest"/>
@@ -23,5 +12,5 @@
         </methods>
       </class> <!-- com.qa.hubspot.test.LoginPageTest -->
     </classes>
-  </test> <!-- Functional Regession Test Suite - chrome(failed) -->
-</suite> <!-- Failed suite [Hub spot Regession Test Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

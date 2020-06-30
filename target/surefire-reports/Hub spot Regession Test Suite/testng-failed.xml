@@ -2,11 +2,18 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Hub spot Regession Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <listeners>
-    <listener class-name="com.qa.hubspot.listners.TestAllureListener"/>
+    <listener class-name="com.qa.hubspot.listners.ScreenshotListener"/>
   </listeners>
   <test thread-count="5" name="Functional Regession Test Suite - chrome(failed)" verbose="0">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="com.qa.hubspot.test.ContactPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="createNewContactTest" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.test.ContactPageTest -->
       <class name="com.qa.hubspot.test.LoginPageTest">
         <methods>
           <include name="verifyLoginPageTitleTest"/>

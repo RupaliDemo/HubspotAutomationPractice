@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="52.797" tests="6" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="211.321" tests="12" errors="0" skipped="0" failures="7">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
     <property name="jdk.debug" value="release"/>
     <property name="maven.home" value="C:\Driver1\apache-maven-3.6.3-bin (1)\apache-maven-3.6.3\bin\.."/>
     <property name="sun.cpu.endian" value="little"/>
@@ -59,42 +59,144 @@
     <property name="library.jansi.path" value="C:\Driver1\apache-maven-3.6.3-bin (1)\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="loginTest" classname="com.qa.hubspot.test.LoginPageTest" time="7.048"/>
-  <testcase name="verifyLoginPageTitleTest" classname="com.qa.hubspot.test.LoginPageTest" time="2.646">
+  <testcase name="loginTest" classname="com.qa.hubspot.test.LoginPageTest" time="11.576"/>
+  <testcase name="verifyLoginPageTitleTest" classname="com.qa.hubspot.test.LoginPageTest" time="5.051">
     <failure message="Title not matched... expected [HubSpot Login] but found [Reports dashboard]" type="java.lang.AssertionError">java.lang.AssertionError: Title not matched... expected [HubSpot Login] but found [Reports dashboard]
-	at com.qa.hubspot.test.LoginPageTest.verifyLoginPageTitleTest(LoginPageTest.java:53)
+	at com.qa.hubspot.test.LoginPageTest.verifyLoginPageTitleTest(LoginPageTest.java:60)
 </failure>
     <system-out><![CDATA[I am in onTestStart method verifyLoginPageTitleTest start
-I am in onTestStart method verifyLoginPageTitleTest start
+06-30-2020 14:44:57 LoginPageTest.java INFO  [main] test.LoginPageTest 53 - *************************Starting test case*****************************
+06-30-2020 14:44:57 LoginPageTest.java INFO  [main] test.LoginPageTest 54 - ****************Hub Spot Login Page  Test ******************
 login page title isReports dashboard
-I am in onTestFailure method verifyLoginPageTitleTest failed
-Screenshot captured for test case:verifyLoginPageTitleTest
+06-30-2020 14:44:57 LoginPageTest.java INFO  [main] test.LoginPageTest 58 - login page Title is :-Reports dashboard
 I am in onTestFailure method verifyLoginPageTitleTest failed
 Screenshot captured for test case:verifyLoginPageTitleTest
 ]]></system-out>
   </testcase>
-  <testcase name="VerifyHomePageTitleTest" classname="com.qa.hubspot.test.HomePageTest" time="0.067"/>
-  <testcase name="verifySignUpLinkTest" classname="com.qa.hubspot.test.LoginPageTest" time="1.139">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Sign up&quot;}&#10;  (Session info: chrome=83.0.4103.106)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;RUPALI-DELL&apos;, ip: &apos;192.168.1.68&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\dheer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: c25b683772fe88794e11cd83ca433958&#10;*** Element info: {Using=link text, value=Sign up}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+  <testcase name="VerifyHomePageTitleTest" classname="com.qa.hubspot.test.HomePageTest" time="0.085"/>
+  <testcase name="verifyContactPageTitleTest" classname="com.qa.hubspot.test.ContactPageTest" time="0.067"/>
+  <testcase name="verifySignUpLinkTest" classname="com.qa.hubspot.test.LoginPageTest" time="2.318">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Sign up&quot;}&#10;  (Session info: chrome=83.0.4103.116)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;RUPALI-DELL&apos;, ip: &apos;192.168.1.68&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\dheer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50226}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 9cf1367a406065318ab6adbe8002d3e3&#10;*** Element info: {Using=link text, value=Sign up}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"link text","selector":"Sign up"}
-  (Session info: chrome=83.0.4103.106)
+  (Session info: chrome=83.0.4103.116)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RUPALI-DELL', ip: '192.168.1.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\dheer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c25b683772fe88794e11cd83ca433958
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\dheer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50226}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9cf1367a406065318ab6adbe8002d3e3
 *** Element info: {Using=link text, value=Sign up}
-	at com.qa.hubspot.test.LoginPageTest.verifySignUpLinkTest(LoginPageTest.java:66)
+	at com.qa.hubspot.test.LoginPageTest.verifySignUpLinkTest(LoginPageTest.java:79)
 </failure>
     <system-out><![CDATA[I am in onTestStart method verifySignUpLinkTest start
-I am in onTestStart method verifySignUpLinkTest start
-I am in onTestFailure method verifySignUpLinkTest failed
-Screenshot captured for test case:verifySignUpLinkTest
+06-30-2020 14:45:02 LoginPageTest.java INFO  [main] test.LoginPageTest 77 - *************************Starting VerifySignUP Link test case*****************************
+06-30-2020 14:45:02 LoginPageTest.java INFO  [main] test.LoginPageTest 78 - ****************Hub Spot VerifySignUp Link Page  Test ******************
 I am in onTestFailure method verifySignUpLinkTest failed
 Screenshot captured for test case:verifySignUpLinkTest
 ]]></system-out>
   </testcase>
-  <testcase name="VerifyHomePageHeader" classname="com.qa.hubspot.test.HomePageTest" time="0.27"/>
-  <testcase name="VerifyLoggedInUserTest" classname="com.qa.hubspot.test.HomePageTest" time="0.046"/>
+  <testcase name="VerifyHomePageHeader" classname="com.qa.hubspot.test.HomePageTest" time="1.185"/>
+  <testcase name="createNewContactTest" classname="com.qa.hubspot.test.ContactPageTest" time="16.898">
+    <failure message="Expected condition failed: waiting for presence of element located by: By.xpath: (//i18n-string[text()=&apos;Contacts&apos;])[2] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: (//i18n-string[text()='Contacts'])[2] (tried for 10 second(s) with 500 milliseconds interval)
+	at com.qa.hubspot.test.ContactPageTest.createNewContactTest(ContactPageTest.java:63)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//i18n-string[text()='Contacts'])[2]"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUPALI-DELL', ip: '192.168.1.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\dheer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2150aaac3cbafef8efbe83b1404cd9bd
+*** Element info: {Using=xpath, value=(//i18n-string[text()='Contacts'])[2]}
+	at com.qa.hubspot.test.ContactPageTest.createNewContactTest(ContactPageTest.java:63)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method createNewContactTest start
+I am in onTestFailure method createNewContactTest failed
+Screenshot captured for test case:createNewContactTest
+]]></system-out>
+  </testcase>
+  <testcase name="createNewContactTest" classname="com.qa.hubspot.test.ContactPageTest" time="15.775">
+    <failure message="Expected condition failed: waiting for presence of element located by: By.xpath: (//i18n-string[text()=&apos;Contacts&apos;])[2] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: (//i18n-string[text()='Contacts'])[2] (tried for 10 second(s) with 500 milliseconds interval)
+	at com.qa.hubspot.test.ContactPageTest.createNewContactTest(ContactPageTest.java:63)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//i18n-string[text()='Contacts'])[2]"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUPALI-DELL', ip: '192.168.1.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\dheer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2150aaac3cbafef8efbe83b1404cd9bd
+*** Element info: {Using=xpath, value=(//i18n-string[text()='Contacts'])[2]}
+	at com.qa.hubspot.test.ContactPageTest.createNewContactTest(ContactPageTest.java:63)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method createNewContactTest start
+I am in onTestFailure method createNewContactTest failed
+Screenshot captured for test case:createNewContactTest
+]]></system-out>
+  </testcase>
+  <testcase name="createNewContactTest" classname="com.qa.hubspot.test.ContactPageTest" time="14.885">
+    <failure message="Expected condition failed: waiting for presence of element located by: By.xpath: (//i18n-string[text()=&apos;Contacts&apos;])[2] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: (//i18n-string[text()='Contacts'])[2] (tried for 10 second(s) with 500 milliseconds interval)
+	at com.qa.hubspot.test.ContactPageTest.createNewContactTest(ContactPageTest.java:63)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//i18n-string[text()='Contacts'])[2]"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUPALI-DELL', ip: '192.168.1.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\dheer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2150aaac3cbafef8efbe83b1404cd9bd
+*** Element info: {Using=xpath, value=(//i18n-string[text()='Contacts'])[2]}
+	at com.qa.hubspot.test.ContactPageTest.createNewContactTest(ContactPageTest.java:63)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method createNewContactTest start
+I am in onTestFailure method createNewContactTest failed
+Screenshot captured for test case:createNewContactTest
+]]></system-out>
+  </testcase>
+  <testcase name="createNewContactTest" classname="com.qa.hubspot.test.ContactPageTest" time="13.697">
+    <failure message="Expected condition failed: waiting for presence of element located by: By.xpath: (//i18n-string[text()=&apos;Contacts&apos;])[2] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: (//i18n-string[text()='Contacts'])[2] (tried for 10 second(s) with 500 milliseconds interval)
+	at com.qa.hubspot.test.ContactPageTest.createNewContactTest(ContactPageTest.java:63)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//i18n-string[text()='Contacts'])[2]"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUPALI-DELL', ip: '192.168.1.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\dheer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2150aaac3cbafef8efbe83b1404cd9bd
+*** Element info: {Using=xpath, value=(//i18n-string[text()='Contacts'])[2]}
+	at com.qa.hubspot.test.ContactPageTest.createNewContactTest(ContactPageTest.java:63)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method createNewContactTest start
+06-30-2020 14:46:13 PoolingHttpClientConnectionManager.java DEBUG [Finalizer] conn.PoolingHttpClientConnectionManager 408 - Connection manager is shutting down
+06-30-2020 14:46:13 PoolingHttpClientConnectionManager.java DEBUG [Finalizer] conn.PoolingHttpClientConnectionManager 414 - Connection manager shut down
+I am in onTestFailure method createNewContactTest failed
+Screenshot captured for test case:createNewContactTest
+]]></system-out>
+  </testcase>
+  <testcase name="createNewContactTest" classname="com.qa.hubspot.test.ContactPageTest" time="13.837">
+    <failure message="Expected condition failed: waiting for presence of element located by: By.xpath: (//i18n-string[text()=&apos;Contacts&apos;])[2] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: (//i18n-string[text()='Contacts'])[2] (tried for 10 second(s) with 500 milliseconds interval)
+	at com.qa.hubspot.test.ContactPageTest.createNewContactTest(ContactPageTest.java:63)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//i18n-string[text()='Contacts'])[2]"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUPALI-DELL', ip: '192.168.1.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\dheer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2150aaac3cbafef8efbe83b1404cd9bd
+*** Element info: {Using=xpath, value=(//i18n-string[text()='Contacts'])[2]}
+	at com.qa.hubspot.test.ContactPageTest.createNewContactTest(ContactPageTest.java:63)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method createNewContactTest start
+I am in onTestFailure method createNewContactTest failed
+Screenshot captured for test case:createNewContactTest
+]]></system-out>
+  </testcase>
+  <testcase name="VerifyLoggedInUserTest" classname="com.qa.hubspot.test.HomePageTest" time="0.056"/>
 </testsuite>

@@ -1,7 +1,8 @@
 package com.qa.hubspot.test;
 
 import java.util.Properties;
-
+import java.util.concurrent.TimeUnit;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -25,6 +26,8 @@ public class LoginPageTest
      
 	 Properties prop;
 	 WebDriver driver;
+	 Logger log = Logger.getLogger(LoginPageTest.class);
+		
 
 	 BasePage basepage;
 	 LoginPage loginpage;
@@ -35,10 +38,11 @@ public class LoginPageTest
 		
 		basepage = new BasePage();
 		prop =basepage.init_prop();
+		
 		driver =basepage.init_driver(prop);	
 		
 		loginpage= new LoginPage(driver);
-		
+		log.info("Intializing login page");
 	}
 	
 	@Test(priority =1, description = "verify loginpage titletest")
@@ -46,11 +50,18 @@ public class LoginPageTest
 	@Description("Verify login page title on login page")
 	@Story("Story Name : To check login page title")
 	public void verifyLoginPageTitleTest() {
+		log.info("*************************Starting test case*****************************");
+		log.info("****************Hub Spot Login Page  Test ******************");
 		
 	String title =	loginpage.getLoginPageTitle();
 	System.out.println("login page title is"+title);
+	log.info("login page Title is :-" +title);
 	
 	Assert.assertEquals(title, Constants.LOGIN_PAGE_TITLE, "Title not matched...");
+	
+	
+	log.info("***************Ending Test Case ***************");
+	log.info("*******Hub Spot Login Test ***********************");
 	
    }
 	
@@ -63,8 +74,14 @@ public class LoginPageTest
 	@Story("Story Name : To check login page title")
 	public void  verifySignUpLinkTest()
 	{
+		log.info("*************************Starting VerifySignUP Link test case*****************************");
+		log.info("****************Hub Spot VerifySignUp Link Page  Test ******************");
 		loginpage.checkSignUpLink();
 		Assert.assertTrue(loginpage.checkSignUpLink());
+		
+		log.info("************************* Ending VerifySignUP Link test case*****************************");
+		log.info("****************Hub Spot VerifySignUp Link Page  Test ******************");
+		
 	}
 
 	
@@ -74,12 +91,20 @@ public class LoginPageTest
 	@Story("Story Name : To check login page title")
 	public void loginTest()
 	{
+		log.info("*************************Starting login test case*****************************");
+		log.info("****************Hub Spot loginpage  Test ******************");
 		loginpage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
+		
+		log.info("*************************Starting login test case*****************************");
+		log.info("****************Hub Spot login test Page  Test ******************");
 	}
+	
 	
 	
 	@AfterTest
 	public void teardown() {
 		driver.quit();
+		
+		log.info("*************browser closed ******************");
 	}
 }

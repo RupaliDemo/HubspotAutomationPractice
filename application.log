@@ -1,0 +1,37 @@
+2020-06-30 14:19:50,498  INFO [main] LoginPageTest:45 - Intializing login page
+2020-06-30 14:19:51,635  INFO [main] LoginPageTest:94 - *************************Starting login test case*****************************
+2020-06-30 14:19:51,637  INFO [main] LoginPageTest:95 - ****************Hub Spot loginpage  Test ******************
+2020-06-30 14:19:59,803  INFO [main] LoginPageTest:98 - *************************Starting login test case*****************************
+2020-06-30 14:19:59,804  INFO [main] LoginPageTest:99 - ****************Hub Spot login test Page  Test ******************
+2020-06-30 14:20:00,500  INFO [main] LoginPageTest:53 - *************************Starting test case*****************************
+2020-06-30 14:20:00,501  INFO [main] LoginPageTest:54 - ****************Hub Spot Login Page  Test ******************
+2020-06-30 14:20:01,033  INFO [main] LoginPageTest:58 - login page Title is :-Reports dashboard
+2020-06-30 14:20:02,166  INFO [main] LoginPageTest:77 - *************************Starting VerifySignUP Link test case*****************************
+2020-06-30 14:20:02,167  INFO [main] LoginPageTest:78 - ****************Hub Spot VerifySignUp Link Page  Test ******************
+2020-06-30 14:20:04,072  INFO [main] LoginPageTest:108 - *************browser closed ******************
+2020-06-30 14:38:31,657  INFO [main] LoginPageTest:45 - Intializing login page
+2020-06-30 14:38:32,683  INFO [main] LoginPageTest:94 - *************************Starting login test case*****************************
+2020-06-30 14:38:32,684  INFO [main] LoginPageTest:95 - ****************Hub Spot loginpage  Test ******************
+2020-06-30 14:38:40,198  INFO [main] LoginPageTest:98 - *************************Starting login test case*****************************
+2020-06-30 14:38:40,198  INFO [main] LoginPageTest:99 - ****************Hub Spot login test Page  Test ******************
+2020-06-30 14:38:40,959  INFO [main] LoginPageTest:53 - *************************Starting test case*****************************
+2020-06-30 14:38:40,960  INFO [main] LoginPageTest:54 - ****************Hub Spot Login Page  Test ******************
+2020-06-30 14:38:41,437  INFO [main] LoginPageTest:58 - login page Title is :-Reports dashboard
+2020-06-30 14:38:42,569  INFO [main] LoginPageTest:77 - *************************Starting VerifySignUP Link test case*****************************
+2020-06-30 14:38:42,571  INFO [main] LoginPageTest:78 - ****************Hub Spot VerifySignUp Link Page  Test ******************
+2020-06-30 14:38:45,142  INFO [main] LoginPageTest:108 - *************browser closed ******************
+2020-06-30 14:44:20,835 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-06-30 14:44:21,005 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-06-30 14:44:43,046  INFO [main] LoginPageTest:45 - Intializing login page
+2020-06-30 14:44:45,691  INFO [main] LoginPageTest:94 - *************************Starting login test case*****************************
+2020-06-30 14:44:45,723  INFO [main] LoginPageTest:95 - ****************Hub Spot loginpage  Test ******************
+2020-06-30 14:44:53,600  INFO [main] LoginPageTest:98 - *************************Starting login test case*****************************
+2020-06-30 14:44:53,600  INFO [main] LoginPageTest:99 - ****************Hub Spot login test Page  Test ******************
+2020-06-30 14:44:57,242  INFO [main] LoginPageTest:53 - *************************Starting test case*****************************
+2020-06-30 14:44:57,245  INFO [main] LoginPageTest:54 - ****************Hub Spot Login Page  Test ******************
+2020-06-30 14:44:57,309  INFO [main] LoginPageTest:58 - login page Title is :-Reports dashboard
+2020-06-30 14:45:02,681  INFO [main] LoginPageTest:77 - *************************Starting VerifySignUP Link test case*****************************
+2020-06-30 14:45:02,682  INFO [main] LoginPageTest:78 - ****************Hub Spot VerifySignUp Link Page  Test ******************
+2020-06-30 14:46:13,638 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-06-30 14:46:13,639 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-06-30 14:46:41,332  INFO [main] LoginPageTest:108 - *************browser closed ******************
