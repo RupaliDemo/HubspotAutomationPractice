@@ -25,7 +25,7 @@ public class HomePage extends BasePage{
 	}
 	
 	public String getHomePageTitle() {
-		return elementUtils.WaitForTitleTobePresence(Constants.HOME_PAGE_TITLE, 10);
+		return driver.getTitle();
 		
 	}
 	

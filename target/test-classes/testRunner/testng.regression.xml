@@ -20,6 +20,7 @@
    <parameter name="browser" value="chrome"></parameter>
     <classes>
        <class name="com.qa.hubspot.test.LoginPageTest" />
+       <class name="com.qa.hubspot.test.CompaniesPageTest"/>
       
         <class name="com.qa.hubspot.test.HomePageTest" /> 
       <class name="com.qa.hubspot.test.ContactPageTest" />

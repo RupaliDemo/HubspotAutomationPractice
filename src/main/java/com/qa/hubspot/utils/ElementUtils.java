@@ -247,7 +247,7 @@ package com.qa.hubspot.utils;
 			public String WaitForTitleTobePresence(String title ,int timeout) {
 			 
 			 WebDriverWait wait = new WebDriverWait(driver, timeout);
-		//	 wait.until(ExpectedConditions.textToBePresentInElementLocated(getElement(By locator), title));
+		   //  wait.until(ExpectedConditions.textToBePresentInElementLocated(getElement(By locator), title));
 			 wait.until(ExpectedConditions.titleContains(title));
 			 return driver.getTitle();
 		 }

@@ -11,4 +11,7 @@ public class Constants {
 		
 		public  static final String CONTACTS_PAGE_TITLE ="Contacts";
 		
+		public static final String COMPANIES_PAGE_TITLE = "Companies";
+		
+		
 }
