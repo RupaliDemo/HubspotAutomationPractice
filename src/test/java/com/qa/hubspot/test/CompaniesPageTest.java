@@ -6,14 +6,18 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.qa.hubspot.base.BasePage;
+import com.qa.hubspot.listners.TestAllureListener;
 import com.qa.hubspot.page.CompaniesPage;
 import com.qa.hubspot.page.ContactsPage;
 import com.qa.hubspot.page.HomePage;
 import com.qa.hubspot.page.LoginPage;
 import com.qa.hubspot.utils.Constants;
+
+@Listeners(TestAllureListener.class)
 
 public class CompaniesPageTest {
 	

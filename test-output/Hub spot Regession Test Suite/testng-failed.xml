@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Hub spot Regession Test Suite]">
   <listeners>
-    <listener class-name="com.qa.hubspot.listners.ScreenshotListener"/>
+    <listener class-name="com.qa.hubspot.listners.TestAllureListener"/>
   </listeners>
   <test thread-count="5" verbose="3" name="Functional Regession Test Suite - chrome(failed)">
     <parameter name="browser" value="chrome"/>

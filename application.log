@@ -144,3 +144,37 @@
 2020-07-01 14:30:29,007  INFO [main] LoginPageTest:108 - *************browser closed ******************
 2020-07-01 14:30:29,363 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
 2020-07-01 14:30:29,365 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-07-02 05:49:55,490  INFO [main] LoginPageTest:45 - Intializing login page
+2020-07-02 05:49:56,307  INFO [main] LoginPageTest:94 - *************************Starting login test case*****************************
+2020-07-02 05:49:56,312  INFO [main] LoginPageTest:95 - ****************Hub Spot loginpage  Test ******************
+2020-07-02 05:50:03,236  INFO [main] LoginPageTest:98 - *************************Starting login test case*****************************
+2020-07-02 05:50:03,236  INFO [main] LoginPageTest:99 - ****************Hub Spot login test Page  Test ******************
+2020-07-02 05:50:03,801  INFO [main] LoginPageTest:53 - *************************Starting test case*****************************
+2020-07-02 05:50:03,802  INFO [main] LoginPageTest:54 - ****************Hub Spot Login Page  Test ******************
+2020-07-02 05:50:04,558  INFO [main] LoginPageTest:58 - login page Title is :-Reports dashboard
+2020-07-02 05:50:07,688  INFO [main] LoginPageTest:77 - *************************Starting VerifySignUP Link test case*****************************
+2020-07-02 05:50:07,689  INFO [main] LoginPageTest:78 - ****************Hub Spot VerifySignUp Link Page  Test ******************
+2020-07-02 05:50:11,454 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-07-02 05:50:11,458 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-07-02 05:50:11,463 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-07-02 05:50:11,463 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-07-02 05:51:31,297  INFO [main] LoginPageTest:108 - *************browser closed ******************
+2020-07-02 05:51:31,747 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-07-02 05:51:31,749 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-07-02 06:04:17,395  INFO [main] LoginPageTest:45 - Intializing login page
+2020-07-02 06:04:18,943  INFO [main] LoginPageTest:94 - *************************Starting login test case*****************************
+2020-07-02 06:04:18,943  INFO [main] LoginPageTest:95 - ****************Hub Spot loginpage  Test ******************
+2020-07-02 06:04:27,262  INFO [main] LoginPageTest:98 - *************************Starting login test case*****************************
+2020-07-02 06:04:27,264  INFO [main] LoginPageTest:99 - ****************Hub Spot login test Page  Test ******************
+2020-07-02 06:04:28,198  INFO [main] LoginPageTest:53 - *************************Starting test case*****************************
+2020-07-02 06:04:28,199  INFO [main] LoginPageTest:54 - ****************Hub Spot Login Page  Test ******************
+2020-07-02 06:04:29,254  INFO [main] LoginPageTest:58 - login page Title is :-Reports dashboard
+2020-07-02 06:04:35,108  INFO [main] LoginPageTest:77 - *************************Starting VerifySignUP Link test case*****************************
+2020-07-02 06:04:35,108  INFO [main] LoginPageTest:78 - ****************Hub Spot VerifySignUp Link Page  Test ******************
+2020-07-02 06:04:39,813 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-07-02 06:04:39,816 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-07-02 06:04:39,819 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-07-02 06:04:39,819 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-07-02 06:06:02,341  INFO [main] LoginPageTest:108 - *************browser closed ******************
+2020-07-02 06:06:02,702 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-07-02 06:06:02,704 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down

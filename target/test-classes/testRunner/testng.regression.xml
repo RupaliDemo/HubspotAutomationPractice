@@ -9,8 +9,8 @@
 <!--       <listener class-name= "com.qa.hubspot.listners.PdfListener"/> -->
       
 <!--       <listener class-name= "com.qa.hubspot.listners.ExtentReport_ITestListner"/> -->
-<!--         <listener class-name= "com.qa.hubspot.listners.TestAllureListener"/> -->
-           <listener class-name= "com.qa.hubspot.listners.ScreenshotListener"/>
+        <listener class-name= "com.qa.hubspot.listners.TestAllureListener"/>
+<!--            <listener class-name= "com.qa.hubspot.listners.ScreenshotListener"/> -->
       </listeners>  
  
  
