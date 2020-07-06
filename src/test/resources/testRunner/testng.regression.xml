@@ -10,6 +10,7 @@
       
 <!--       <listener class-name= "com.qa.hubspot.listners.ExtentReport_ITestListner"/> -->
         <listener class-name= "com.qa.hubspot.listners.TestAllureListener"/>
+         <listener class-name= "com.qa.hubspot.listners.TestJiraListener"/>
 <!--            <listener class-name= "com.qa.hubspot.listners.ScreenshotListener"/> -->
       </listeners>  
  
@@ -20,10 +21,11 @@
    <parameter name="browser" value="chrome"></parameter>
     <classes>
        <class name="com.qa.hubspot.test.LoginPageTest" />
-       <class name="com.qa.hubspot.test.CompaniesPageTest"/>
+<!--        <class name="com.qa.hubspot.test.CompaniesPageTest"/> -->
       
-        <class name="com.qa.hubspot.test.HomePageTest" /> 
-      <class name="com.qa.hubspot.test.ContactPageTest" />
+<!--         <class name="com.qa.hubspot.test.HomePageTest" />  -->
+<!--       <class name="com.qa.hubspot.test.ContactPageTest" /> -->
+   
     </classes>
    </test>
 

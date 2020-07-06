@@ -104,6 +104,14 @@
     <artifactId>log4j</artifactId>
     <version>1.2.17</version>
 </dependency>
+
+<!-- https://mvnrepository.com/artifact/net.rcarz/jira-client -->
+<dependency>
+    <groupId>net.rcarz</groupId>
+    <artifactId>jira-client</artifactId>
+    <version>0.5</version>
+</dependency>
+
    
  </dependencies>
   

@@ -14,6 +14,7 @@ import com.qa.hubspot.base.BasePage;
 import com.qa.hubspot.listners.TestAllureListener;
 import com.qa.hubspot.page.LoginPage;
 import com.qa.hubspot.utils.Constants;
+import com.qa.hubspot.utils.JiraPolicy;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
@@ -45,6 +46,7 @@ public class LoginPageTest
 		log.info("Intializing login page");
 	}
 	
+	@JiraPolicy(logTicketReady = true)
 	@Test(priority =1, description = "verify loginpage titletest")
 	@Severity(SeverityLevel.NORMAL)
 	@Description("Verify login page title on login page")
@@ -67,7 +69,7 @@ public class LoginPageTest
 	
 	
 	
-	
+	@JiraPolicy(logTicketReady = true)
 	@Test(priority =2, description = "verify Signup Link Test")
 	@Severity(SeverityLevel.NORMAL)
 	@Description("Verify login page title on login page")
@@ -84,7 +86,7 @@ public class LoginPageTest
 		
 	}
 
-	
+	@JiraPolicy(logTicketReady = true)
 	@Test(priority =1, description = "verify loginpage titletest")
 	@Severity(SeverityLevel.NORMAL)
 	@Description("Verify login page title on login page")
